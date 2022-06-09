@@ -1,7 +1,7 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script>
  $(document).ready(function(){
-     setInterval(ajaxcall, 3000);
+     setInterval(ajaxcall, 1000);
  });
  function ajaxcall(){
      $.ajax({
@@ -16,3 +16,7 @@
  }
 </script>
 <span id="hours">0</span>:<span id="minutes">0</span>:<span id="seconds">0</span>
+
+<p>
+<?php echo 'holiiis' ?>
+</p>
