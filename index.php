@@ -1,7 +1,7 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script>
  $(document).ready(function(){
-     setInterval(ajaxcall, 1000);
+     setInterval(ajaxcall, 3000);
  });
  function ajaxcall(){
      $.ajax({
